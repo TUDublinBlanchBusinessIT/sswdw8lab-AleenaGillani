@@ -1,6 +1,6 @@
 <?php
 date_default_timezone_set('Europe/Dublin');
-include("CarPolicy2.php");
+include("CarPolicy.php");
 $initialPremium = 600;
 $myCarpolicy = new CarPolicy("XM123456", $initialPremium);
 
